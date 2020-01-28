@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.watchsuntv" name="watchsuntv" provider-name="watchsuntv" version="4.1.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="watchsuntv.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language />
+    <summary>watchsuntv Video Addon</summary>
+    <description>Live Streaming / VOD</description>
+    <disclaimer />
+  </extension>
+</addon>
+
+    <addon id="gud.kodi" name="GudKodi" version="1.0.0" provider-name="gudkodi">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="GudKodi">
+            <info compressed="false">https://raw.githubusercontent.com/bvrygud/gudkodi/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bvrygud/gudkodi/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bvrygud/gudkodi/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Summary</summary>
+            <description>Description</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
